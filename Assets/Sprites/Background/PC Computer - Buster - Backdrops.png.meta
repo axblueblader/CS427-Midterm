@@ -1,0 +1,760 @@
+fileFormatVersion: 2
+guid: ff0630bcb14452e4abfb0fd522de4805
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3202641368286953211
+    second: PC Computer - Buster - Backdrops_0
+  - first:
+      213: -6375901441070737935
+    second: PC Computer - Buster - Backdrops_1
+  - first:
+      213: -5217178155498208638
+    second: PC Computer - Buster - Backdrops_2
+  - first:
+      213: -3483564144883253893
+    second: PC Computer - Buster - Backdrops_3
+  - first:
+      213: 5270379202769182717
+    second: PC Computer - Buster - Backdrops_4
+  - first:
+      213: 4908338206503389379
+    second: PC Computer - Buster - Backdrops_5
+  - first:
+      213: -6083132962844172923
+    second: PC Computer - Buster - Backdrops_6
+  - first:
+      213: 2477629158339432068
+    second: PC Computer - Buster - Backdrops_7
+  - first:
+      213: -3531729327380114086
+    second: PC Computer - Buster - Backdrops_8
+  - first:
+      213: 5729301288283767349
+    second: PC Computer - Buster - Backdrops_9
+  - first:
+      213: 7256726976657405056
+    second: PC Computer - Buster - Backdrops_10
+  - first:
+      213: -4565272746177364012
+    second: PC Computer - Buster - Backdrops_11
+  - first:
+      213: 8907124305186334261
+    second: PC Computer - Buster - Backdrops_12
+  - first:
+      213: 1079642579143692114
+    second: PC Computer - Buster - Backdrops_13
+  - first:
+      213: -5319658173808096743
+    second: PC Computer - Buster - Backdrops_14
+  - first:
+      213: -326043024286583881
+    second: PC Computer - Buster - Backdrops_15
+  - first:
+      213: 5808266765129983165
+    second: PC Computer - Buster - Backdrops_16
+  - first:
+      213: -8300855666505133436
+    second: PC Computer - Buster - Backdrops_17
+  - first:
+      213: 1675977181254016484
+    second: PC Computer - Buster - Backdrops_18
+  - first:
+      213: -67378541473947707
+    second: PC Computer - Buster - Backdrops_19
+  - first:
+      213: -263259329304119731
+    second: PC Computer - Buster - Backdrops_20
+  - first:
+      213: 5851670171346225228
+    second: PC Computer - Buster - Backdrops_21
+  - first:
+      213: -4869162487366826897
+    second: PC Computer - Buster - Backdrops_22
+  - first:
+      213: 3519969396416964689
+    second: PC Computer - Buster - Backdrops_23
+  - first:
+      213: 2821817854959693851
+    second: PC Computer - Buster - Backdrops_24
+  - first:
+      213: -7114525486134851016
+    second: PC Computer - Buster - Backdrops_25
+  - first:
+      213: 2582410338337883293
+    second: PC Computer - Buster - Backdrops_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1950
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb73bcf62f6803e47878c6904cdab288
+      internalID: -3202641368286953211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1950
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce96026f8c857f42bbd696f8002d5f6
+      internalID: -6375901441070737935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1950
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3425681788182ef49b865292deba10c8
+      internalID: -5217178155498208638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1708
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3b57ee0af24e9449ebb5d89427626d
+      internalID: -3483564144883253893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1708
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dbe9682a1480344967bb4656ed3846
+      internalID: 5270379202769182717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1708
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8fcdef14ee6e24f871dbbb712bfc81
+      internalID: 4908338206503389379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1466
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3337cbe9d052db743aea905419a12a1e
+      internalID: -6083132962844172923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1466
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8618e74664e422f4981b13020c162761
+      internalID: 2477629158339432068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1466
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5619150201dec429b91b82db8da9ee
+      internalID: -3531729327380114086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1224
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a06f44b392f34f81d46944df69b27
+      internalID: 5729301288283767349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1224
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf5082e73e8d934c96b42edfdc09153
+      internalID: 7256726976657405056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1224
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd04c7ec2306c4eb237b97d79e608b
+      internalID: -4565272746177364012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 982
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77b502b48bd44d4191b429e86dbae6c
+      internalID: 8907124305186334261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 982
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bec04bd874e4c4690f48d791400c89
+      internalID: 1079642579143692114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 982
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597469facff09264fa9d0fe8d21b7656
+      internalID: -5319658173808096743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 740
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bfc71c63ddc1c4bb81835a500d009a
+      internalID: -326043024286583881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 740
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda76653ccac08046a83e3b52bbc5db5
+      internalID: 5808266765129983165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_17
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 740
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9418bd3961d224aa0a40f072dfd108
+      internalID: -8300855666505133436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 498
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dec5ebcdb64bc24da78a4bacb4ee411
+      internalID: 1675977181254016484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 498
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2751d25d8dd47544daad5058d87b97f0
+      internalID: -67378541473947707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 498
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740b18ea7d385a844b80a1df2bdc631a
+      internalID: -263259329304119731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9152b33f81c6b5b4689fef941e59a1f3
+      internalID: 5851670171346225228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_22
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 256
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d634aee39a11854797ccc90ac3d9010
+      internalID: -4869162487366826897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 256
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab474d95192a2f489319c7322502d3a
+      internalID: 3519969396416964689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dca019f2985c04585c71ed114bb34b
+      internalID: 2821817854959693851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 14
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e917947fa10fc1a4ab58e5eb2015f43e
+      internalID: -7114525486134851016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Buster - Backdrops_26
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 14
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3e99a903c6b114e90c763c8e5af832
+      internalID: 2582410338337883293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9281bb40e4b58544dba8af8aa4bfc1c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
