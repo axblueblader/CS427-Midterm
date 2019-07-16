@@ -11,7 +11,7 @@ public static class MessageConstants
 
     public static class Challenge2
     {
-        public static string sign = "Second rule of Phungia: ";
+        public static string sign = "Second rule of Phungia: Prepare for the worst";
     }
 
     public static class WorldMessage
