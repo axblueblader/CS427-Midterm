@@ -14,11 +14,10 @@ public class CharacterMovement : MonoBehaviour
     public float minVelocityYAsAir = 2F;
     public Transform target;
 
-    private int hMovement;
+    private float hMovement;
     private Animator animator;
     private Rigidbody2D rb;
     private Text messTextBox;
-    private bool disableMovement;
     private bool jumpUp;
     private Vector2 posBefore;
 
@@ -26,9 +25,11 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        disableMovement = false;
         rb = GetComponent<Rigidbody2D>();
-        messTextBox = GameObject.Find("text_object_name").GetComponent<Text>();
+        if (messTextBox == null)
+        {
+            messTextBox = GameObject.Find("MessTextBox").GetComponent<Text>();
+        }
     }
 
     // Update is called once per frame
@@ -42,16 +43,17 @@ public class CharacterMovement : MonoBehaviour
         else
         {
             jumpUp = false;
-            hMovement = 0;
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                hMovement = -1;
-            }
+            hMovement = Input.GetAxisRaw("Horizontal");
 
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                hMovement = 1;
-            } 
+            //if (Input.GetKey(KeyCode.LeftArrow))
+            //{
+            //    hMovement = -1;
+            //}
+
+            //if (Input.GetKey(KeyCode.RightArrow))
+            //{
+            //    hMovement = 1;
+            //} 
 
             // Space pressed and not moving up or down
             if (Input.GetKeyDown(KeyCode.Space) && Math.Abs(rb.velocity.y) == 0)
@@ -68,13 +70,13 @@ public class CharacterMovement : MonoBehaviour
     private void FixedUpdate()
     {
         posBefore = target.position;
-        switch (hMovement)
-        {
-            case 1: MoveRight(); break;
-            case -1: MoveLeft(); break;
-            default: break;
-        }
-        
+        //switch (hMovement)
+        //{
+        //    case 1: MoveRight(); break;
+        //    case -1: MoveLeft(); break;
+        //    default: break;
+        //}
+        MoveHorizontal();
         if (jumpUp)
         {
             JumpUp();
@@ -86,11 +88,21 @@ public class CharacterMovement : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (posBefore.Equals(target.position) && hMovement != 0 && rb.velocity.Equals(Vector2.zero))
+        //if (posBefore.Equals(target.position) && hMovement != 0 && rb.velocity.Equals(Vector2.zero))
+        //{
+        //    Debug.Log("BUGGGGGGG");
+        //    target.position = target.position + new Vector3(0.1f * hMovement, 0);
+        //}
+    }
+
+    void MoveHorizontal()
+    {
+        rb.velocity = new Vector2(speed*hMovement, rb.velocity.y);
+        if ( hMovement != 0)
         {
-            Debug.Log("BUGGGGGGG");
-            target.position = target.position + new Vector3(0.1f * hMovement, 0);
+            GetComponent<SpriteRenderer>().flipX = hMovement > 0 ? false : true;
         }
+        
     }
     void MoveLeft()
     {

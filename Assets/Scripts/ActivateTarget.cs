@@ -7,7 +7,7 @@ public class ActivateTarget : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        target.SetActive(false);
+
     }
 
     // Update is called once per frame

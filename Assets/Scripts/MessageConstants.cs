@@ -6,7 +6,12 @@ public static class MessageConstants
 {
     public static class Challenge1
     {
-        public static string sign = "First rule of Phungia: Trust nothing";
+        public static string sign = "First rule of Phungia: Have faith";
+    }
+
+    public static class Challenge2
+    {
+        public static string sign = "Second rule of Phungia: ";
     }
 
     public static class WorldMessage
