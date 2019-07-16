@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -11,25 +12,30 @@ public class CharacterMovement : MonoBehaviour
     public float maxVelocityY = 5F;
     public float minVelocityXAsRun = 0.5F;
     public float minVelocityYAsAir = 2F;
+    public Transform target;
 
     private int hMovement;
     private Animator animator;
     private Rigidbody2D rb;
+    private Text messTextBox;
     private bool disableMovement;
     private bool jumpUp;
+    private Vector2 posBefore;
 
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         disableMovement = false;
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        messTextBox = GameObject.Find("text_object_name").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (disableMovement)
+        
+        if (animator.GetBool("isDead"))
         {
             Debug.Log("Movement is disabled");
         }
@@ -61,13 +67,14 @@ public class CharacterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        posBefore = target.position;
         switch (hMovement)
         {
             case 1: MoveRight(); break;
             case -1: MoveLeft(); break;
             default: break;
         }
-
+        
         if (jumpUp)
         {
             JumpUp();
@@ -75,6 +82,15 @@ public class CharacterMovement : MonoBehaviour
 
         LimitCharVelocity();
         SetCharState();
+    }
+
+    private void LateUpdate()
+    {
+        if (posBefore.Equals(target.position) && hMovement != 0 && rb.velocity.Equals(Vector2.zero))
+        {
+            Debug.Log("BUGGGGGGG");
+            target.position = target.position + new Vector3(0.1f * hMovement, 0);
+        }
     }
     void MoveLeft()
     {
@@ -152,11 +168,11 @@ public class CharacterMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.tag == "FatalPlat" && collision.otherCollider.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "FatalPlat")
         {
             Debug.Log("Dead");
-            animator.SetTrigger("Dead");
-            disableMovement = true;
+            animator.SetBool("isDead",true);
+            messTextBox.text = MessageConstants.WorldMessage.deadPlayer;
         }
     }
 
