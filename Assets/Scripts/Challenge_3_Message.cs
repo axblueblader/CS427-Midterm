@@ -3,13 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChangeMessTextBoxInArea : MonoBehaviour
+public class Challenge_3_Message : MonoBehaviour
 {
     public Text messTextBox;
-
-    public string messageToDisplay;
-
-    public bool doExit = false;
 
     private string prevText;
     // Start is called before the first frame update
@@ -19,12 +15,6 @@ public class ChangeMessTextBoxInArea : MonoBehaviour
         {
             messTextBox = GameObject.Find("MessTextBox").GetComponent<Text>();
         }
-
-        if (messageToDisplay == null || messageToDisplay == "")
-        {
-            messageToDisplay = MessageConstants.WorldMessage.level2;
-        }
-
     }
 
     // Update is called once per frame
@@ -36,14 +26,17 @@ public class ChangeMessTextBoxInArea : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         prevText = messTextBox.text;
-        messTextBox.text = messageToDisplay;
+        if (collision.gameObject.tag == "Player")
+        {
+            messTextBox.text = MessageConstants.Challenge3.sign;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (messTextBox == null && doExit)
+        if (collision.gameObject.tag == "Player")
         {
-            messTextBox = GameObject.Find("MessTextBox").GetComponent<Text>();
+            messTextBox.text = prevText;
         }
     }
 }

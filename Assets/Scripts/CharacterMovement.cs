@@ -13,6 +13,9 @@ public class CharacterMovement : MonoBehaviour
     public float minVelocityXAsRun = 0.5F;
     public float minVelocityYAsAir = 2F;
     public Transform target;
+    public AudioSource jumpSound;
+    public AudioSource walkSound;
+    public AudioSource dieSound;
 
     private float hMovement;
     private Animator animator;
@@ -30,6 +33,7 @@ public class CharacterMovement : MonoBehaviour
         {
             messTextBox = GameObject.Find("MessTextBox").GetComponent<Text>();
         }
+        InvokeRepeating("PlayWalkSound", 0.0f, 0.2f);
     }
 
     // Update is called once per frame
@@ -60,8 +64,6 @@ public class CharacterMovement : MonoBehaviour
             {
                 jumpUp = true;
             }
-
-            
         }
 
 
@@ -77,6 +79,7 @@ public class CharacterMovement : MonoBehaviour
         //    default: break;
         //}
         MoveHorizontal();
+        
         if (jumpUp)
         {
             JumpUp();
@@ -88,6 +91,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void LateUpdate()
     {
+        
         //if (posBefore.Equals(target.position) && hMovement != 0 && rb.velocity.Equals(Vector2.zero))
         //{
         //    Debug.Log("BUGGGGGGG");
@@ -126,6 +130,7 @@ public class CharacterMovement : MonoBehaviour
     {
         //rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
         rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+        jumpSound.PlayOneShot(jumpSound.clip);
     }
 
     void LimitCharVelocity()
@@ -185,9 +190,23 @@ public class CharacterMovement : MonoBehaviour
             Debug.Log("Dead");
             animator.SetBool("isDead",true);
             messTextBox.text = MessageConstants.WorldMessage.deadPlayer;
+            dieSound.PlayOneShot(dieSound.clip);
         }
     }
 
+    void PlayWalkSound()
+    {
+        if (hMovement != 0 && animator.GetBool("isAir") == false 
+            && animator.GetBool("isRunning")
+            && animator.GetBool("isDead") == false)
+        {
+            walkSound.PlayOneShot(walkSound.clip);
+        }
+        else
+        {
+            walkSound.Stop();
+        }
+    }
     //public void onDyingAnimEnded()
     //{
     //    animator.SetBool("isDead", true);
