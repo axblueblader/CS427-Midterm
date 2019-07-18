@@ -29,8 +29,7 @@ public static class MessageConstants
         public static string level1 = "Level 1";
         public static string level2 = "Level 2";
         public static string win = "Congrats! You made it through. Press E to continue";
-        public static string story = "Welcome to Phungia\n" +
-            "You have woken up here, not knowing who you are, where you came from\n" +
-            "Follow the signs left by ancient beings, they will guide you well";
+        public static string story = "Welcome to Phungia: " +
+            "Follow the signs and you will understand the world\n";
     }
 }

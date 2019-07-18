@@ -67,6 +67,7 @@ public class CharacterMovement : MonoBehaviour
         }
 
 
+        
     }
 
     private void FixedUpdate()
@@ -85,19 +86,9 @@ public class CharacterMovement : MonoBehaviour
             JumpUp();
         }
 
-        LimitCharVelocity();
         SetCharState();
     }
-
-    private void LateUpdate()
-    {
-        
-        //if (posBefore.Equals(target.position) && hMovement != 0 && rb.velocity.Equals(Vector2.zero))
-        //{
-        //    Debug.Log("BUGGGGGGG");
-        //    target.position = target.position + new Vector3(0.1f * hMovement, 0);
-        //}
-    }
+    
 
     void MoveHorizontal()
     {
@@ -132,23 +123,7 @@ public class CharacterMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         jumpSound.PlayOneShot(jumpSound.clip);
     }
-
-    void LimitCharVelocity()
-    {
-        //if (Math.Abs(rb.velocity.x) > maxVelocityX)
-        //{
-        //    Debug.Log("Before x limmiter: " + rb.velocity);
-        //    rb.velocity = new Vector2(maxVelocityX * Math.Sign(rb.velocity.x), rb.velocity.y);
-        //    Debug.Log("After x limmiter: " + rb.velocity);
-        //}
-
-        //if (Math.Abs(rb.velocity.y) > maxVelocityY)
-        //{
-        //    Debug.Log("Before y limmiter: " + rb.velocity);
-        //    rb.velocity = new Vector2(rb.velocity.x, maxVelocityY * Math.Sign(rb.velocity.y));
-        //    Debug.Log("After y limmiter: " + rb.velocity);
-        //}
-    }
+    
     void SetCharState()
     {
         //Debug.Log(rb.velocity.y);
@@ -207,8 +182,4 @@ public class CharacterMovement : MonoBehaviour
             walkSound.Stop();
         }
     }
-    //public void onDyingAnimEnded()
-    //{
-    //    animator.SetBool("isDead", true);
-    //}
 }
