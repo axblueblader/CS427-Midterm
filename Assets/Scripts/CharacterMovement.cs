@@ -11,7 +11,7 @@ public class CharacterMovement : MonoBehaviour
     public float maxVelocityX = 1F;
     public float maxVelocityY = 5F;
     public float minVelocityXAsRun = 0.5F;
-    public float minVelocityYAsAir = 2F;
+    public float minVelocityYAsAir = 0.2F;
     public Transform target;
     public AudioSource jumpSound;
     public AudioSource walkSound;
@@ -60,7 +60,7 @@ public class CharacterMovement : MonoBehaviour
             //} 
 
             // Space pressed and not moving up or down
-            if (Input.GetKeyDown(KeyCode.Space) && Math.Abs(rb.velocity.y) == 0)
+            if (Input.GetKeyDown(KeyCode.Space) && Math.Abs(rb.velocity.y) <= minVelocityYAsAir)
             {
                 jumpUp = true;
             }

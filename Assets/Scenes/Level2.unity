@@ -5363,7 +5363,7 @@ MonoBehaviour:
   maxVelocityX: 3
   maxVelocityY: 1
   minVelocityXAsRun: 1
-  minVelocityYAsAir: 0
+  minVelocityYAsAir: 0.2
   target: {fileID: 676741936}
   jumpSound: {fileID: 1016133368}
   walkSound: {fileID: 993054523}
