@@ -4,6 +4,8 @@ using UnityEngine.UI;
 public class Challenge_1_Message : MonoBehaviour
 {
     public Text messTextBox;
+    public GameObject panel;
+    public GameObject statusPanel;
     private string prevText;
     public GameObject spikes;
     private bool haveRead = false;
@@ -29,6 +31,8 @@ public class Challenge_1_Message : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             messTextBox.text = MessageConstants.Challenge1.sign;
+            statusPanel.SetActive(false);
+            panel.SetActive(true);
             haveRead = true;
         }
     }
@@ -40,8 +44,10 @@ public class Challenge_1_Message : MonoBehaviour
         {
             
             spikes.SetActive(true);
+            panel.SetActive(false);
+            statusPanel.SetActive(true);
         }
-        messTextBox.text = prevText;
+        messTextBox.text = "";
 
     }
 }

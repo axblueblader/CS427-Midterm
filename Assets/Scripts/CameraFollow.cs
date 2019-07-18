@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public float dampTime = 0.05f;
+    public float dampTime = 0.1f;
     private Vector3 velocity = Vector3.zero;
     public Transform target;
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         if (target)
         {

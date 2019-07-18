@@ -11,7 +11,7 @@ public class StoryPanelText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        storyText.text = MessageConstants.WorldMessage.story;
+        
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class StoryPanelText : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        storyText.text = MessageConstants.WorldMessage.story;
         statusPanel.SetActive(false);
         panel.SetActive(true);
     }
@@ -30,5 +31,6 @@ public class StoryPanelText : MonoBehaviour
     {
         panel.SetActive(false);
         statusPanel.SetActive(true);
+        storyText.text = "";
     }
 }

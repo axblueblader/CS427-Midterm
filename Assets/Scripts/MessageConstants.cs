@@ -6,17 +6,21 @@ public static class MessageConstants
 {
     public static class Challenge1
     {
-        public static string sign = "First rule of Phungia: Have faith";
+        public static string sign = "Everything is not what it seems. Watch your steps\n" +
+            "But don't be afraid to take risks";
     }
 
     public static class Challenge2
     {
-        public static string sign = "Second rule of Phungia: Prepare for the worst";
+        public static string sign = "Planning through observation is key. Practice makes perfect\n" +
+            "Defeat is not an option";
     }
 
     public static class Challenge3
     {
-        public static string sign = "It's not a bug, it's a feature";
+        public static string sign = "You came this far so believe in your skills\n"
+            + "Push it to the limit\n" 
+            + "P/s: It's not a bug, it's a feature.";
     }
 
     public static class WorldMessage
@@ -27,7 +31,6 @@ public static class MessageConstants
         public static string win = "Congrats! You made it through. Press E to continue";
         public static string story = "Welcome to Phungia\n" +
             "You have woken up here, not knowing who you are, where you came from\n" +
-            "To survive, embrace the rules of Phungia world\n" +
             "Follow the signs left by ancient beings, they will guide you well";
     }
 }

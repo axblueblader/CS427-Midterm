@@ -33,7 +33,7 @@ public class CharacterMovement : MonoBehaviour
         {
             messTextBox = GameObject.Find("MessTextBox").GetComponent<Text>();
         }
-        InvokeRepeating("PlayWalkSound", 0.0f, 0.2f);
+        InvokeRepeating("PlayWalkSound", 0.0f, 0.5f);
     }
 
     // Update is called once per frame
@@ -197,7 +197,7 @@ public class CharacterMovement : MonoBehaviour
     void PlayWalkSound()
     {
         if (hMovement != 0 && animator.GetBool("isAir") == false 
-            && animator.GetBool("isRunning")
+            && animator.GetBool("isRunning") == true
             && animator.GetBool("isDead") == false)
         {
             walkSound.PlayOneShot(walkSound.clip);

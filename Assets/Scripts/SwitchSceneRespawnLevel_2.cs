@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class StartGame : MonoBehaviour
+public class SwitchSceneRespawnLevel_2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,8 +16,9 @@ public class StartGame : MonoBehaviour
         
     }
 
-    public void startGame()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Level1");
+        Respawn.level = 2;
+        Debug.Log("Switched to level 2 scene entirely");
     }
 }
