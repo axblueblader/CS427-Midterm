@@ -6,7 +6,7 @@
 1651069 - Nguyen Quoc Viet
 
 ## Introduction:
-Phungia: A game about a boy lost in a world where he knows nothing except for his instinct to survive and strive. Follow him as he explore the mysterious world of Phungia. Facing various challenges along the way while learning about the special rules of the world.
+Phungia: A game about a boy lost in a world where he knows nothing except for his instinct to survive and strive. Follow him as he explore the mysterious world of Phungia. Facing various challenges along the way while learning the skills and mindset it takes to make it out alive.
 
 ## Product details:
 - Unity3D version 2019.1.5f
